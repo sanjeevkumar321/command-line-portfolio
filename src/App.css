@@ -1,4 +1,14 @@
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
 
+pre,.cmd-text{
+  font-family: 'Courier New', Courier, monospace;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
 
 .cursor {
   background-color: #0f0;
