@@ -72,7 +72,7 @@ function App() {
       }
       e.preventDefault(); // Prevent default browser backspace behavior
     } else if (e.key == "Enter") {
-      // setIsTypeAble((prev) => !prev);
+      setIsTypeAble(false);
       // alert();
       let textData = typetext.toLocaleLowerCase().trim();
       if (textData == "clear") setHistory([]);
@@ -177,13 +177,10 @@ Type 'help' to see available commands. </pre>`,
 
   const typeEnd = () => {
     setCount((prev) => {
-      // const newCount = prev + 1;
-      // if (newCount % 2 === 0) {
-      //   setIsTypeAble(true);
-      // } else {
-      //   setIsTypeAble(false);
-      // }
+      const newCount = prev + 1;
+
       setIsTypeAble(true);
+
       console.log(newCount); // log the new value
       return newCount;
     });
@@ -260,9 +257,9 @@ Type 'help' to see available commands.`}
                                   strings={[item.cmdText]}
                                   typeSpeed={0.5}
                                   showCursor={false}
-                                  // onBegin={() => {
-                                  //   setIsTypeAble(false);
-                                  // }}
+                                  onBegin={() => {
+                                    setIsTypeAble(false);
+                                  }}
                                   onStringTyped={typeEnd}
                                 />
                               </div>
