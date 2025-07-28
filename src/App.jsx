@@ -202,7 +202,7 @@ Type 'help' to see available commands. </pre>`,
         </div>
 
         <div className="flex flex-1 overflow-hidden flex-row border-green-700 border-t border-b">
-          <div className="w-2/5 h-full border-green-700 border-r relative z-10">
+          <div className="md:w-2/5 h-full border-green-700 border-r relative z-10 hidden sm:block">
             <div className="relative w-full h-full">
               <div className="absolute inset-0 h-full w-100vh">
                 <Tag />
@@ -212,7 +212,7 @@ Type 'help' to see available commands. </pre>`,
               </div>
             </div>
           </div>
-          <div className="w-3/5 h-full overflow-auto relative">
+          <div className="md:w-3/5 h-full overflow-auto relative sm:w-auto">
             <div
               onClick={handleDivClick}
               className="terminal-container w-full h-full overflow-y-auto bg-black text-green-500 font-mono px-4 pb-6"
