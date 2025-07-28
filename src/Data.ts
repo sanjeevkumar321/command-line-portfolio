@@ -1,13 +1,19 @@
 export const data = {};
 
-data["name"] = `
-<pre style="color:#d4d4d4; padding:1rem; border-radius:8px;  line-height:1.4; white-space: pre-wrap;">
- ▗▄▄▖ ▗▄▖ ▗▖  ▗▖   ▗▖▗▄▄▄▖▗▄▄▄▖▗▖  ▗▖    ▗▖ ▗▖▗▖ ▗▖▗▖  ▗▖ ▗▄▖ ▗▄▄▖      ▗▄▄▖ ▗▄▖ ▗▖ ▗▖ ▗▄▖  ▗▄▖ 
-▐▌   ▐▌ ▐▌▐▛▚▖▐▌   ▐▌▐▌   ▐▌   ▐▌  ▐▌    ▐▌▗▞▘▐▌ ▐▌▐▛▚▞▜▌▐▌ ▐▌▐▌ ▐▌    ▐▌   ▐▌ ▐▌▐▌ ▐▌▐▌ ▐▌▐▌ ▐▌
- ▝▀▚▖▐▛▀▜▌▐▌ ▝▜▌   ▐▌▐▛▀▀▘▐▛▀▀▘▐▌  ▐▌    ▐▛▚▖ ▐▌ ▐▌▐▌  ▐▌▐▛▀▜▌▐▛▀▚▖     ▝▀▚▖▐▛▀▜▌▐▛▀▜▌▐▌ ▐▌▐▌ ▐▌
-▗▄▄▞▘▐▌ ▐▌▐▌  ▐▌▗▄▄▞▘▐▙▄▄▖▐▙▄▄▖ ▝▚▞▘     ▐▌ ▐▌▝▚▄▞▘▐▌  ▐▌▐▌ ▐▌▐▌ ▐▌    ▗▄▄▞▘▐▌ ▐▌▐▌ ▐▌▝▚▄▞▘▝▚▄▞▘
-</pre>
-`;
+// data["name"] = `
+// <pre style="color:#d4d4d4; padding:1rem; border-radius:8px;  line-height:1.4; white-space: pre-wrap;">
+
+//  _______  _______  _       _________ _______             _                 _______  _______  _______    _______  _______           _______  _______ 
+// (  ____ \(  ___  )( (    /|\__    _/(  ____ \|\     /|  | \    /\|\     /|(       )(  ___  )(  ____ )  (  ____ \(  ___  )|\     /|(  ___  )(  ___  )
+// | (    \/| (   ) ||  \  ( |   )  (  | (    \/| )   ( |  |  \  / /| )   ( || () () || (   ) || (    )|  | (    \/| (   ) || )   ( || (   ) || (   ) |
+// | (_____ | (___) ||   \ | |   |  |  | (__    | |   | |  |  (_/ / | |   | || || || || (___) || (____)|  | (_____ | (___) || (___) || |   | || |   | |
+// (_____  )|  ___  || (\ \) |   |  |  |  __)   ( (   ) )  |   _ (  | |   | || |(_)| ||  ___  ||     __)  (_____  )|  ___  ||  ___  || |   | || |   | |
+//       ) || (   ) || | \   |   |  |  | (       \ \_/ /   |  ( \ \ | |   | || |   | || (   ) || (\ (           ) || (   ) || (   ) || |   | || |   | |
+// /\____) || )   ( || )  \  ||\_)  )  | (____/\  \   /    |  /  \ \| (___) || )   ( || )   ( || ) \ \__  /\____) || )   ( || )   ( || (___) || (___) |
+// \_______)|/     \||/    )_)(____/   (_______/   \_/     |_/    \/(_______)|/     \||/     \||/   \__/  \_______)|/     \||/     \|(_______)(_______)
+                                                                                                                                                    
+// </pre>
+// `;
 
 data["about"] = `
 <pre style="color:#d4d4d4; padding:1rem; border-radius:8px;  line-height:1.4; white-space: pre-wrap;">
@@ -90,7 +96,6 @@ data["skills"] = `
 
 data["contact"] = `
 <pre style="color:#d4d4d4; padding:1rem; border-radius:8px;  line-height:1.4; white-space: pre-wrap;">
-<span style="color:#569cd6;">Phone    :</span> +91-7008352036
 <span style="color:#569cd6;">Email    :</span> sksahoo241@gmail.com
 <span style="color:#569cd6;">LinkedIn :</span> https://linkedin.com/in/sanjeev321
 <span style="color:#569cd6;">GitHub   :</span> https://github.com/sanjeevkumar321
@@ -100,8 +105,7 @@ data["contact"] = `
 
 data["education"] = `
 <pre style="color:#d4d4d4; padding:1rem; border-radius:8px;  line-height:1.4; white-space: pre-wrap;">
-<span style="color:#f44747;">[Error]</span> No education data found.
-<span style="color:#c586c0;">Hint:</span> Upload your degree, university, and graduation year.
+<span style="color:#c586c0;">Btech:</span> Gandhi Institute for Technology (GIFT),Bhubaneswar 2022.
 </pre>
 `;
 
@@ -126,16 +130,7 @@ data["clear"] = `
 </pre>
 `;
 
-data["easteregg"] = `
-<pre style="color:#d4d4d4; padding:1rem; border-radius:8px;  line-height:1.4; white-space: pre-wrap;">
-Access granted.
 
-Welcome to Dev Mode.
-→ Build with clarity.
-→ Test with intention.
-→ Ship with pride.
-</pre>
-`;
 
 data["help"] = `
 <pre style="color:#569cd6; padding:1rem; border-radius:8px;  line-height:1.4; white-space: pre-wrap;">
