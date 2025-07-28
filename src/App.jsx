@@ -177,14 +177,13 @@ Type 'help' to see available commands. </pre>`,
 
   const typeEnd = () => {
     setCount((prev) => {
-      const newCount = prev + 1;
-
-      if (newCount % 2 === 0) {
-        setIsTypeAble(true);
-      } else {
-        setIsTypeAble(false);
-      }
-
+      // const newCount = prev + 1;
+      // if (newCount % 2 === 0) {
+      //   setIsTypeAble(true);
+      // } else {
+      //   setIsTypeAble(false);
+      // }
+      setIsTypeAble(true);
       console.log(newCount); // log the new value
       return newCount;
     });
@@ -261,9 +260,9 @@ Type 'help' to see available commands.`}
                                   strings={[item.cmdText]}
                                   typeSpeed={0.5}
                                   showCursor={false}
-                                  onBegin={() => {
-                                    setIsTypeAble(false);
-                                  }}
+                                  // onBegin={() => {
+                                  //   setIsTypeAble(false);
+                                  // }}
                                   onStringTyped={typeEnd}
                                 />
                               </div>
