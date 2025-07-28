@@ -4,6 +4,7 @@ import "./App.css";
 import { data } from "./Data";
 import LiveClock from "./LiveClock";
 import Tag from "./Tag";
+
 import { HfInference } from "@huggingface/inference";
 
 function App() {
