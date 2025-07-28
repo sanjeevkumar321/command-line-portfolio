@@ -208,7 +208,7 @@ Type 'help' to see available commands. </pre>`,
               </div>
             </div>
           </div>
-          <div className="md:w-3/5 h-full overflow-auto relative sm:w-auto">
+          <div className="md:w-3/5 h-full overflow-auto relative sm:w-full">
             <div
               onClick={handleDivClick}
               className="terminal-container w-full h-full overflow-y-auto bg-black text-green-500 font-mono px-4 pb-6"
@@ -226,10 +226,9 @@ Type 'help' to see available commands. </pre>`,
                     <span>welcome</span>
                   </div>
                   <div className="response mt-1 text-white whitespace-pre-wrap cmd-text">
-                    <pre>
-                      {`Hi, I'm Sanjeev , a Software & AI Engineer. Welcome to my interactive 'AI powered' portfolio terminal! 
-Type 'help' to see available commands.`}
-                    </pre>
+                    Hi, I'm Sanjeev , a Software & AI Engineer. Welcome to my
+                    interactive 'AI powered' portfolio terminal! <br /> <br />
+                    Type 'help' to see available commands.
                   </div>
                 </div>
               </div>
