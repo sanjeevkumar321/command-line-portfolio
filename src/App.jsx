@@ -144,7 +144,7 @@ I regularly use Git, Jenkins, Docker, Postman, and JIRA, and am passionate about
         setHistory((prev) => [...prev, { cmdText: result.answer, typeId: 2 }]);
       } else if (score > 0.7) {
         setHistory((prev) => [...prev, { cmdText: result.answer, typeId: 2 }]);
-      } else if (score > 0.3) {
+      } else if (score > 0.12) {
         setHistory((prev) => [...prev, { cmdText: result.answer, typeId: 2 }]);
       } else {
         setHistory((prev) => [
